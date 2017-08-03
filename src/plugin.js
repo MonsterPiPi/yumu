@@ -1,3 +1,4 @@
+var chalk = require('chalk');
 
 exports.commends = ['init', 'install', 'server', 'build'];
 

@@ -9,6 +9,7 @@ var pkg = require('../package.json');
 var child_process = require('child_process');
 var plugin = require('../src/plugin.js');
 var addSpaceStr = require('../src/common.js').addSpaceStr;
+var chalk = require('chalk');
 
 if(!process.argv[3]) {
 	program.version(pkg.version);
