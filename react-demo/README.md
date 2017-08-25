@@ -1,3 +1,0 @@
-
-# yumu-template
-yumu-template

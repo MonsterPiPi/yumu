@@ -39,6 +39,7 @@ if(!process.argv[2]) {
 }
 
 if(plugin.commends.indexOf(process.argv[2]) < 0) {
+	console.log('');
 	console.log(chalk.red('  Can\'t find \'yumu '+ process.argv[2] +'\',Please ensure the right commends'));
 	return;
 }
